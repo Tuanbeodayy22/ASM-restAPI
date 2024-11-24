@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ASM</string>
+        <string name="add_car">Thêm xe mới</string>
+        <string name="car_list">Danh sách xe</string>
+        <string name="name">Tên xe</string>
+        <string name="manufacturer">Hãng sản xuất</string>
+        <string name="year">Năm sản xuất</string>
+        <string name="price">Giá bán</string>
+        <string name="description">Mô tả</string>
+
+
+</resources>

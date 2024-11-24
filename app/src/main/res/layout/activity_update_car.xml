@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tên xe -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên xe"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Hãng sản xuất -->
+        <EditText
+            android:id="@+id/etManufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hãng sản xuất"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Năm sản xuất -->
+        <EditText
+            android:id="@+id/etYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Năm sản xuất"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Giá bán -->
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá bán"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Mô tả -->
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô tả"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Nút cập nhật xe -->
+        <Button
+            android:id="@+id/btnUpdateCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật xe"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+    </LinearLayout>
+</ScrollView>
